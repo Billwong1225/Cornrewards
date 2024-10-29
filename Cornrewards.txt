@@ -5,6 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Corn Rewards Program - How It Works</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #faf3d7; /* Pale yellow background */
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f0c94d; /* Light yellow-orange */
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+        #how-it-works, #benefits, #partners {
+            padding: 20px;
+            text-align: center;
+        }
+        .steps-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .step {
+            background-color: #fff8e7;
+            border: 1px solid #e0b146;
+            padding: 15px;
+            margin: 10px;
+            width: 80%;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #f0c94d;
+            padding: 10px;
+            color: #fff;
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background-color: #fff8e7;
+            border: 1px solid #e0b146;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            max-width: 600px;
+            display: inline-block;
+        }
+        .partner-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .partner {
+            background-color: #fff8e7;
+            border: 1px solid #e0b146;
+            padding: 15px;
+            width: 150px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .partner img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -41,7 +118,28 @@
 
     <section id="partners">
         <h2>Our Partners</h2>
-        <p>Earn and redeem points at popular stores like Whole Foods, CVS, Nike, Starbucks, and more. We are expanding our network to include even more of your favorite brands.</p>
+        <div class="partner-container">
+            <div class="partner">
+                <img src="https://via.placeholder.com/100" alt="Whole Foods Logo">
+                <p>Whole Foods</p>
+            </div>
+            <div class="partner">
+                <img src="https://via.placeholder.com/100" alt="Walmart Logo">
+                <p>Walmart</p>
+            </div>
+            <div class="partner">
+                <img src="https://via.placeholder.com/100" alt="Starbucks Logo">
+                <p>Starbucks</p>
+            </div>
+            <div class="partner">
+                <img src="https://via.placeholder.com/100" alt="CVS Logo">
+                <p>CVS</p>
+            </div>
+            <div class="partner">
+                <img src="https://via.placeholder.com/100" alt="Nike Logo">
+                <p>Nike</p>
+            </div>
+        </div>
     </section>
 
     <footer>
